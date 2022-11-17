@@ -83,4 +83,4 @@ insert into author (last_name) values ('Народ');
 insert into poem (name, content, date, a_id) values ('Анна Каренина', 'Ann Carenina', '24.02.1870', 1);
 
 delete from poem;
-truncate poem restart IDENTITY;
+truncate poem restart identity cascade;
